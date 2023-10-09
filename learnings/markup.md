@@ -3,7 +3,7 @@ The choice of HTML elements can significantly impact how your content is perceiv
 
 For example semantic HTML elements, like \<section\> and \<article\>, By using them correctly, you make your content more machine-readable, aiding search engines in understanding your website's structure.
 
-for example   <section> and <article>, use <article> when your content is self-contained and can stand alone, such as a blog post. On the other hand, <section> is ideal for grouping related content within a document, making it easier for both users and automated tools to navigate your website. By using semantic HTML, you enhance accessibility, user experience, and SEO, making your website more effective and user-friendly.
+for example   <section> and <article>, use <article> when your content is self-contained and can stand alone, such as a blog post. On the other hand, \<section\> is ideal for grouping related content within a document, making it easier for both users and automated tools to navigate your website. By using semantic HTML, you enhance accessibility, user experience, and SEO, making your website more effective and user-friendly.
 
 
 ## 2. Ensure a web page is readable for screen readers
