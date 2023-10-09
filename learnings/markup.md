@@ -1,4 +1,5 @@
 ## 1. Structure a site using semantic HTML to aid accessibility
+
 The choice of HTML elements can significantly impact how your content is perceived by both humans and machines. 
 
 For example semantic HTML elements, like \<section\> and \<article\>, By using them correctly, you make your content more machine-readable, aiding search engines in understanding your website's structure.
