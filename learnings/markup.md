@@ -1,23 +1,25 @@
 ## 1. Structure a site using semantic HTML to aid accessibility
-Although the content in semantic element <section> appears havve same result as using generic elements such as <div> or <span>. using the correct instructure will make the files become machine readable. This help machine idnetify the content and act on it based on different purpose (advertising or reader )
+The choice of HTML elements can significantly impact how your content is perceived by both humans and machines. 
 
-Some element are easier to confused but 
-<section>  and  <article>
-- <article> is use when the content is standalone. 
-- <section> works more like paragraphs of the content.   
+For example semantic HTML elements, like <section> and <article>, By using them correctly, you make your content more machine-readable, aiding search engines in understanding your website's structure.
 
+for example   <section> and <article>, use <article> when your content is self-contained and can stand alone, such as a blog post. On the other hand, <section> is ideal for grouping related content within a document, making it easier for both users and automated tools to navigate your website. By using semantic HTML, you enhance accessibility, user experience, and SEO, making your website more effective and user-friendly.
 
 
 ## 2. Ensure a web page is readable for screen readers
 
-using semantic Html also enable the applicable for screenreader.  The machine reply on markup semantics to figure out what things are.
+Using semantic HTML also enhances accessibility for screen readers. These tools rely on markup semantics to determine the nature of web page content, making it crucial for developers to use semantic elements that convey the correct information.
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
-Couloour 
+Adequate color contrast is essential because it allows text and elements to stand out clearly against the background, making content more readable and understandable.
+
+This is particularly important for individuals with various forms of color blindness, low vision, or other visual impairments.
 
 Colour contrast checker:   
-use 'Lighthouse' in Chrome's developer tool. After anaylsis accesbility it will show if the site has enough colour contrast 
+To assess color contrast, utilise the 'Lighthouse' tool within Chrome's developer tools. After analszing accessibility, it will determine if the site maintains sufficient color contrast.
+
+
 
 <img width="568" alt="Screenshot 2023-10-09 at 20 54 41" src="https://github.com/FAC29A/lucien-portfolio/assets/128807685/e84ef7f2-3657-4112-8c0e-3b657690353f">
 
