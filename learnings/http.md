@@ -1,4 +1,7 @@
 ## 1. Write code that executes asynchronously
+we use various asynchronous JavaScript `.then & catch` `async function` ` so the programs can start long-running tasks(such as waiting for the API server's response), and continue running other tasks in paralel. 
+<img width="700" alt="Screenshot 2023-10-29 at 22 31 22" src="https://github.com/FAC29A/lucien-portfolio/assets/128807685/3369a0ea-f96d-4c17-8bd6-35d312e2d495">
+
 
 ## 2. Use callbacks to access values that aren’t available synchronously
 
