@@ -3,37 +3,29 @@
 
 
 
-This screenshot shows that we incorporated semantic elements in our HTML, including demarcating each section so that it can be tabbed through by the user, as well as H1 and H2 headings in correct order, which ensured that they would be read out by a screen reader (see below). In addition, we used alt-tags on each image. Being able to tab through the site is especially important for those with sight access requirements, and relates to the below. Unfortunately, we missed using ARIA-labels, which was a glaring omission.
-The choice of HTML elements can significantly impact how your content is perceived by both humans and machines. 
----
 
-For example semantic HTML elements, like \<section\> and \<article\>, By using them correctly, you make your content more machine-readable, aiding search engines in understanding your website's structure.
+- Semantic HTML: We incorporated semantic elements (such as `<header>`, `<section>`, `<article>`  in our HTML. We particularly mindful the use of `<section>` and `<article>`:  we use `<article>` when the content is self-contained and can stand alone; we use `<section>` for grouping related content within a document, making it easier for both users and automated tools to navigate our website. (see below image). 
+  <img width="416" alt="Screenshot 2023-10-29 at 20 53 45" src="https://github.com/FAC29A/lucien-portfolio/assets/128807685/eeafb45b-42e9-4fbe-b27c-106dac3e41da">
 
-for example   <section> and <article>, use <article> when your content is self-contained and can stand alone, such as a blog post. On the other hand, \<section\> is ideal for grouping related content within a document, making it easier for both users and automated tools to navigate your website. By using semantic HTML, you enhance accessibility, user experience, and SEO, making your website more effective and user-friendly.
+- `<H1>` `<H2>` elements are use in correct order to ensured that they would be read out by a screen reader.(see below image)
+  <img width="408" alt="Screenshot 2023-10-29 at 21 02 56" src="https://github.com/FAC29A/lucien-portfolio/assets/128807685/d1dd2892-15be-421f-bc32-5aad45b7a854">
+
+
+- We used alt-tags on each image (for the empty image we use `alt=""` so the machine understand this is intentionally left blank description) This is important for those with sight access requirements to be able to use screen readers for acquire the description of images
 
 
 ## 2. Ensure a web page is readable for screen readers
 
-After incorporating the semantic elements in point 1, I then tested the site via screen readers such as Windows Narrator, Speechify, and NVDA. The site worked well with the first two, but came up against issues with NVDA, which appeared to not be able to read the semantic HTML well.
----
+We tested the site via various screen readers (Chromes, Safari, Mac screen reader). The important content and section are sucessfully read out on these screen readers
 
-Using semantic HTML also enhances accessibility for screen readers. These tools rely on markup semantics to determine the nature of web page content, making it crucial for developers to use semantic elements that convey the correct information.
 
 ## 3. Ensure our UI has sufficient colour contrast so that everyone can perceive it comfortably
 
-The screen shot above in Item #3 above confims that we built the site with the express purposes of it being accessible for users whether colour blind or not.
+We use the color contrast checker suggest by Lighthouse (https://dequeuniversity.com/rules/axe/4.7/color-contrast) to ensure they pass WCAG Standard AAA
 
----
-Adequate color contrast is essential because it allows text and elements to stand out clearly against the background, making content more readable and understandable.
-
-This is particularly important for individuals with various forms of color blindness, low vision, or other visual impairments.
-
-Colour contrast checker:   
-To assess color contrast, utilise the 'Lighthouse' tool within Chrome's developer tools. After analszing accessibility, it will determine if the site maintains sufficient color contrast.
+<img width="464" alt="Screenshot 2023-10-29 at 21 28 42" src="https://github.com/FAC29A/lucien-portfolio/assets/128807685/cdd6b6cb-1289-4801-8bfd-fcd9cdb48134">
 
 
-
-<img width="568" alt="Screenshot 2023-10-09 at 20 54 41" src="https://github.com/FAC29A/lucien-portfolio/assets/128807685/e84ef7f2-3657-4112-8c0e-3b657690353f">
 
 
 ## 4. Use various tools to check that our website meets accessibility criteria
